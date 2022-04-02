@@ -1,5 +1,7 @@
 import smtplib
 from email.message import EmailMessage
+from string import Template
+from pathlib import Path #instead of OS Module
 
 print('Login Details of your Email \n')
 username = input('Enter Your Email Address: \n')
